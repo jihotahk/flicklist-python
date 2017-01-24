@@ -47,6 +47,7 @@ class Index(webapp2.RequestHandler):
                 <option value="Napoleon Dynamite">Napoleon Dynamite</option>
                 <option value="American Beauty">American Beauty</option>
                 <option value="Life Is Beautiful">Life Is Beautiful</option>
+                <option value="Mulan">Mulan</option>
             </select>
             <input type="submit" value="Remove It"/>
         </form>
