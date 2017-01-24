@@ -43,11 +43,11 @@ class Index(webapp2.RequestHandler):
         # Include another form so the user can "cross off" a movie from their list.
         crossoff_form = """
         <form action="/cross-off" method="post">
-            <label>
-                I want to cross off
-                <input type="text" name="remove-movie"/>
-                from my watchlist.
-            </label>
+            <select name="remove-movie">
+                <option value="Napoleon Dynamite">Napoleon Dynamite</option>
+                <option value="American Beauty">American Beauty</option>
+                <option value="Life Is Beautiful">Life Is Beautiful</option>
+            </select>
             <input type="submit" value="Remove It"/>
         </form>
         """
